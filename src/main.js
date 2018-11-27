@@ -22,7 +22,7 @@ class LINE extends Command {
 
 
     get myBot() {
-        const bot = ['u659f68789c0e74d37cdd97c0e879c73e','u653c0c37cdaefb7f583023c02cb8384a','u2297b268eec8988b3c32ffa058b0a248','uea50f7108c44b400a9f70b75f7848fcf','ua89b571977cb320814c4175591db2d23','u90a32052cf753761431423d1ee234591','u8b8fad7361ed7c32a1b9c2448732f528','u7cbe6149e62a5df0d42c46f590760601','u14f64e139a3817afaabe27d237afb36b','u8748762cfc5091da024235c27975a0e0','ue43a33a6ea6350447b7ca1de72e23c2e','u8333a7b83f7742aa795672420d2376df','ud7fb95cc02f0f7d09898669633520040','u7b62234875424b196927381b177112c9','uc486961efab83d61d218fa7d8a735661','u7235ccb3dd6b587f28fec4044901d710'];
+        const bot = ['u92da257539ee230b60c1d460bab85015'];
         return bot; 
     }
 
@@ -102,11 +102,13 @@ this._client.sendMessage(0,nadyasayang);
   this._invite(operation.param1,[operation.param2]);
 }
 
-           if(operation.type == 16){ // botjoingroup
+           if(operation.type == 16){
+ // botjoingroup
 {
 let nadyaq = new Message();
 nadyaq.to = operation.param1;
-nadyaq.text = "Terima Kasih Telah Invite Saya Di Group Anda ^_^\n\nSilahkan Ketik [/help] Untuk Mengetahui Command Bot Kami.\n\n~NADYA~","Invite Juga Chucky II Kesini ^_^"
+nadyaq.text = "Terima Kasih Telah Invite Saya Di Group Anda ^_^\n\nSilahkan Ketik [/help] Untuk Mengetahui Command Bot Kami.\n\n~NADYA~"
+,"Invite Juga Chucky II Kesini ^_^"
 
 this._client.sendMessage(0,nadyaq);
 }
